@@ -8,11 +8,10 @@
 angular.module('ui-notification',[]);
 
 angular.module('ui-notification').provider('Notification', function() {
-
     this.options = {
         delay: 5000,
-        startTop: 10,
-        startRight: 10,
+        startTop: 0,
+        startRight: 0,
         verticalSpacing: 10,
         horizontalSpacing: 10,
         positionX: 'right',
